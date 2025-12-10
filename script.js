@@ -1,6 +1,6 @@
-const puppeteer = require("puppeteer-core");
-const chromium = require("@sparticuz/chromium");
-const chalk = require("chalk");
+import puppeteer from "puppeteer-core";
+import chromium from "@sparticuz/chromium";
+import chalk from "chalk";
 // Configuração dos sites
 const sitesConfig = [
     {
@@ -646,6 +646,6 @@ class MultiSiteAutomation {
     this.stats = { success: 0, error: 0, skipped: 0, total: 0 };
 }
 }
-module.exports = MultiSiteAutomation;
+export default MinhaClasse;
 
             
