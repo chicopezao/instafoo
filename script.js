@@ -646,6 +646,6 @@ class MultiSiteAutomation {
     this.stats = { success: 0, error: 0, skipped: 0, total: 0 };
 }
 }
-export default MinhaClasse;
+export default MultiSiteAutomation;
 
             
